@@ -1,0 +1,7 @@
+{
+  "name": "Leccion-Componentes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
