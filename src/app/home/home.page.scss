@@ -1,27 +1,36 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.left-aligned-title {
+  text-align: left;  
+  margin-left: 20px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
 }
 
-#container p {
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px; 
+  margin-bottom: 20px; 
+}
+
+.avatar-name {
+  margin-top: 10px; 
   font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+  font-weight: bold;
 }
 
-#container a {
-  text-decoration: none;
+.centered-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px; 
 }
